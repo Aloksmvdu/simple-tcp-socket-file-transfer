@@ -1,0 +1,11 @@
+This is a tcp socket written to send send a file from client to server using tcp raw tcp socket.
+Server Syntax:
+  make
+  ./server
+  
+Client Syntax:
+  make
+  ./client <server-ip> <file-to-send>
+  
+  Note: An application firewall which runs on a client side can restricts 
+  which applications specifically can access the network or be accessed by the network.
